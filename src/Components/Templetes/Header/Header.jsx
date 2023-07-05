@@ -3,13 +3,13 @@ import { NavLink } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
   const openMenu = (e) => {
-    const navBar = document.querySelector(".header__nav__list");
+    const navBar = document.querySelector(".header__nav__list__bg");
     e.preventDefault();
     navBar.style.right = "0";
     navBar.style.transition = ".5s ease-in-out";
   };
   const closeMenu = (e) => {
-    const navBar = document.querySelector(".header__nav__list");
+    const navBar = document.querySelector(".header__nav__list__bg");
     e.preventDefault();
     navBar.style.right = "-70%";
     navBar.style.transition = ".5s ease-in-out";
@@ -45,7 +45,7 @@ const Header = () => {
               </g>
             </svg>
           </div>
-          <ul className="header__nav__list">
+          <div className="header__nav__list__bg">
             <div className="header__close">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -60,27 +60,29 @@ const Header = () => {
                 </g>
               </svg>
             </div>
-            <li className="header__nav__list__item">
-              <NavLink to="/">
-                <span>00 </span>home
-              </NavLink>
-            </li>
-            <li className="header__nav__list__item">
-              <NavLink to="/destination">
-                <span>01 </span>destination
-              </NavLink>
-            </li>
-            <li className="header__nav__list__item">
-              <NavLink to="/crew">
-                <span>02 </span>crew
-              </NavLink>
-            </li>
-            <li className="header__nav__list__item">
-              <NavLink to="/technology">
-                <span>03 </span>technology
-              </NavLink>
-            </li>
-          </ul>
+            <ul className="header__nav__list">
+              <li className="header__nav__list__item">
+                <NavLink to="/">
+                  <span>00 </span>home
+                </NavLink>
+              </li>
+              <li className="header__nav__list__item">
+                <NavLink to="/destination">
+                  <span>01 </span>destination
+                </NavLink>
+              </li>
+              <li className="header__nav__list__item">
+                <NavLink to="/crew">
+                  <span>02 </span>crew
+                </NavLink>
+              </li>
+              <li className="header__nav__list__item">
+                <NavLink to="/technology">
+                  <span>03 </span>technology
+                </NavLink>
+              </li>
+            </ul>
+          </div>
         </div>
       </header>
     </>
