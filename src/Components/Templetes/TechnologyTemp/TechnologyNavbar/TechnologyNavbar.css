@@ -1,0 +1,51 @@
+.technology__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.technology__Number__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  margin-top: 0.5em;
+}
+.technology__Number__menu li span {
+  font-family: var(--ff-tertiary);
+  color: var(--clr-primary);
+  font-size: 1rem;
+  background-color: transparent;
+  display: flex;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffff40;
+}
+.technology__Number__menu .active span {
+  background-color: var(--clr-primary);
+  color: var(--clr-tertiary);
+}
+.technology__Number__menu li span:hover {
+  border: 1px solid var(--clr-primary);
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  .technology__navbar{
+    margin-top: 1em;
+  }
+  .technology__Number__menu li span{
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .technology__Number__menu{
+    flex-direction: column;
+    margin-right: 5em;
+    gap: 2em;
+  }
+    .technology__Number__menu li span{
+    font-size: 1.75rem;
+  }
+}

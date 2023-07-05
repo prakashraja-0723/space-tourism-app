@@ -1,0 +1,28 @@
+.crew__navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.crew__bullet__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.menu__bullet{
+    padding: 0 .7em;
+    border-radius: 50px;
+    background-color: white;
+    opacity: .5;
+}
+.crew__bullet__menu .active,.crew__bullet__menu .menu__bullet:hover {
+  opacity: 1;
+}
+@media  only screen and (min-width: 1025px){
+    .crew__navbar{
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 5em;
+    }
+}

@@ -1,0 +1,154 @@
+.crew__temp {
+  padding: 0 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.crew__content1 {
+  display: none;
+}
+.crew__img,.pilot__img,.commander__img,.flight_engineer__img {
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+.crew__img img ,.pilot__img img,.flight_engineer__img img,.commander__img img{
+  width: 222px;
+}
+.crew__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+.crew__content p:nth-of-type(1) {
+  font-size: 1rem;
+  font-family: var(--ff-tertiary);
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+.crew__content h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.crew__content p:nth-of-type(2) {
+  font-size: 1rem;
+  font-family: var(--ff-primary);
+  line-height: 25px;
+  text-align: center;
+  color: var(--clr-secondary);
+  margin-top: 1em;
+}
+@media only screen and (min-width: 768px) {
+  .crew__temp {
+    height: calc(100vh - 15em);
+    padding: 0 9.7em;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .crew__img * {
+    /*border: 1px solid red;*/
+  }
+  .crew__img,.pilot__img,.commander__img,.flight_engineer__img {
+    margin-top: 10%;
+    width: 400px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    /*border: 1px solid green;*/
+  }
+  .pilot__img{
+    width: 500px;
+  }
+  .commander__img{
+    width: 450px;
+  }
+  .flight_engineer__img{
+    width: 550px;
+  }
+  .crew__img img,.pilot__img img,.commander__img img,.flight_engineer__img img {
+    width: 100%;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+  }
+  .crew__content p:nth-of-type(1) {
+    font-size: 1.5rem;
+  }
+  .crew__content h1 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .crew__content {
+    display: none;
+  }
+  .crew__temp {
+    flex-direction: row-reverse;
+    margin-right: 14em;
+  }
+  .crew__content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: 1em;
+  }
+  .crew__img,.pilot__img,.commander__img,.flight_engineer__img {
+    position: absolute;
+    bottom: -5px;
+    width: 32%;
+    right: 8em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .commander__img{
+    width: 35%;
+    right: 5em;
+  }
+  .pilot__img{
+    width: 40%;
+    right: 5em;
+  }
+  .flight_engineer__img{
+    width:40%;
+    right: 5em;
+  }
+  .crew__content1 p:nth-of-type(1) {
+    font-size: 2rem;
+    font-family: var(--ff-tertiary);
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+  .crew__content1 h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .crew__content1 p:nth-of-type(2) {
+    font-size: calc(1rem + 2px);
+    font-family: var(--ff-primary);
+    line-height: 25px;
+    color: var(--clr-secondary);
+    margin-top: 1em;
+    width: 500px;
+  }
+  .crew__nav {
+    display: none;
+  }
+}

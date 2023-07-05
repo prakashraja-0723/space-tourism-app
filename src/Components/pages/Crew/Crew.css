@@ -1,0 +1,21 @@
+.crew {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background-image: url("/src/assets/crew/background-crew-mobile.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+@media only screen and (min-width: 768px) {
+  .crew {
+    background-image: url("/src/assets/crew/background-crew-tablet.jpg");
+  }
+}
+@media only screen and (min-width: 1025px){
+  .crew{
+    background-image: url("/src/assets/crew/background-crew-desktop.jpg");
+    overflow: hidden;
+  }
+}

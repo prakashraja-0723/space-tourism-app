@@ -1,0 +1,28 @@
+:root {
+  --ff-primary: "Barlow", sans-serif;
+  --ff-secondary: "Barlow Condensed", sans-serif;
+  --ff-tertiary: "Bellefair", serif;
+  --ff-weight-bold: 700;
+
+  --clr-primary: #ffffff;
+  --clr-secondary: #d0d6f9;
+  --clr-tertiary: #0b0d17;
+
+  color-scheme: light dark;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--clr-primary);
+}
