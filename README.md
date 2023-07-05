@@ -24,16 +24,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](/src/assets/screenshot/Screen%20Shot%202023-07-06%20at%2000.19.25.png)
-![](/src/assets/screenshot/Screen%20Shot%202023-07-06%20at%2000.19.32.png)
-![](/src/assets/screenshot/Screen%20Shot%202023-07-06%20at%2000.19.40.png)
-![](/src/assets/screenshot/Screen%20Shot%202023-07-06%20at%2000.19.47.png)
+![](./src/assets/screenshot/Screen%20Shot%202023-07-06%20at%2000.19.25.png)
+![](./src/assets/screenshot/Screen%20Shot%202023-07-06%20at%2000.19.32.png)
+![](./src/assets/screenshot/Screen%20Shot%202023-07-06%20at%2000.19.40.png)
+![](./src/assets/screenshot/Screen%20Shot%202023-07-06%20at%2000.19.47.png)
 
 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/prakashraja-0723/space-tourism-app/)
-- Live Site URL: [Space Tourism App](https://your-live-site-url.com)
+- Live Site URL: [Space Tourism App](https://space-tourism-app-topaz.vercel.app/)
 
 ## My process
 
