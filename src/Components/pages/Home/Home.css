@@ -119,9 +119,10 @@
   }
   .home__content {
     align-items: flex-start;
+    justify-content: center;
     gap: 1.5em;
     width: 100vw;
-    margin-top: 15em;
+    margin-top: 10em;
     margin-left: 10em;
     position: relative;
   }
