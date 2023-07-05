@@ -110,23 +110,23 @@
   .crew__img,.pilot__img,.commander__img,.flight_engineer__img {
     position: absolute;
     bottom: -5px;
-    width: 32%;
-    right: 8em;
+    width: 25%;
+    right: 10em;
     margin-bottom: 0;
     padding-bottom: 0;
     border-bottom: none;
   }
   .commander__img{
-    width: 35%;
-    right: 5em;
+    width: 28%;
+    right: 10em;
   }
   .pilot__img{
-    width: 40%;
-    right: 5em;
+    width: 31%;
+    right: 10em;
   }
   .flight_engineer__img{
-    width:40%;
-    right: 5em;
+    width:35%;
+    right: 10em;
   }
   .crew__content1 p:nth-of-type(1) {
     font-size: 2rem;
