@@ -19,7 +19,10 @@ const Header = () => {
       <header className="header">
         <div className="header__logo">
           <NavLink to="/">
-            <img src="/src/assets/shared/logo.svg" alt="Space Tourism App" />
+            <img
+              src="../../../assets/shared/logo.svg"
+              alt="Space Tourism App"
+            />
           </NavLink>
         </div>
         <div className="hr__line"></div>
