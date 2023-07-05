@@ -45,7 +45,7 @@ const Header = () => {
               </g>
             </svg>
           </div>
-          <ul className="header__nav__list">
+          <div className="header__nav__list">
             <div className="header__close">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ const Header = () => {
                 <span>03 </span>technology
               </NavLink>
             </li>
-          </ul>
+          </div>
         </div>
       </header>
     </>
