@@ -26,3 +26,6 @@
   text-decoration: none;
   color: var(--clr-primary);
 }
+h1{
+  font-family: var(--ff-tertiary);
+}
