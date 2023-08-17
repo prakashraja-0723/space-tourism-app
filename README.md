@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/prakashraja-0723/space-tourism-app/)
-- Live Site URL: [Space Tourism App](https://your-live-site-url.com)
+- Live Site URL: [Space Tourism App](https://space-tourism-app-topaz.vercel.app/)
 
 ## My process
 
