@@ -3,16 +3,20 @@ import { NavLink } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
   const openMenu = (e) => {
-    const navBar = document.querySelector(".header__nav__list__bg");
+    const navBar = document.querySelector("#header-nav");
     e.preventDefault();
-    navBar.style.right = "0";
-    navBar.style.transition = ".5s ease-in-out";
+    navBar.classList.add("menu-bar-open");
+    navBar.classList.remove("menu-bar-close");
+    // navBar.style.right = "0";
+    // navBar.style.transition = ".5s ease-in-out";
   };
   const closeMenu = (e) => {
-    const navBar = document.querySelector(".header__nav__list__bg");
+    const navBar = document.querySelector("#header-nav");
     e.preventDefault();
-    navBar.style.right = "-100%";
-    navBar.style.transition = ".5s ease-in-out";
+    navBar.classList.add("menu-bar-close");
+    navBar.classList.remove("menu-bar-open");
+    // navBar.style.right = "-100%";
+    // navBar.style.transition = ".5s ease-in-out";
   };
   return (
     <>
@@ -45,7 +49,7 @@ const Header = () => {
               </g>
             </svg>
           </div>
-          <div className="header__nav__list__bg">
+          <div className="header__nav__list__bg" id={`header-nav`}>
             <div className="header__close">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

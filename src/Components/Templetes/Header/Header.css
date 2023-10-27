@@ -35,6 +35,14 @@
   padding: 1.5em 0 1.5em 1.5em;
   z-index: 1;
 }
+.menu-bar-open {
+  right: 0;
+  transition: 0.5s ease-in-out;
+}
+.menu-bar-close{
+  right: -100%;
+  transition: 0.5s ease-in-out;
+}
 .header__nav__list {
   width: 100%;
   display: flex;
@@ -105,15 +113,15 @@
     height: 6rem;
   }
   .header__nav__list {
-      width: 60vw;
-      flex-direction: row;
-      padding: 0;
-      height: 6em;
-      align-items: center;
-      justify-content: center;
-      gap: 3em;
-      position: absolute;
-      top: 0;
+    width: 60vw;
+    flex-direction: row;
+    padding: 0;
+    height: 6em;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    position: absolute;
+    top: 0;
     right: 0;
   }
   .header__nav__list .header__nav__list__item {
@@ -126,7 +134,6 @@
   .header__nav__list li:nth-of-type(1) {
     padding: 3em 0;
     margin: 0;
-
   }
   .header__nav__list li::after {
     /*display: none;*/
