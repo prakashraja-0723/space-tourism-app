@@ -11,7 +11,7 @@ const Header = () => {
   const closeMenu = (e) => {
     const navBar = document.querySelector(".header__nav__list__bg");
     e.preventDefault();
-    navBar.style.right = "-70%";
+    navBar.style.right = "-100%";
     navBar.style.transition = ".5s ease-in-out";
   };
   return (
